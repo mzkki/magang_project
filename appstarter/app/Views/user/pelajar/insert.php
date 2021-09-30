@@ -19,7 +19,7 @@
               <form action="<?= base_url('/pelajar/AttemptInsert'); ?>" method="post">
                 <div class="row">
                   <div class="col-md-6 info">
-                    <h4>Informasi Kegiatan</h4>
+                    <h4>Informasi Laporan</h4>
                     <input type="hidden" value="<?= $id_pelajar['id_pelajar']; ?>" name="id_pelajar" />
                     <div class="item-list">
                       <label for="hari">Hari</label>
