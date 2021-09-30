@@ -1,0 +1,160 @@
+body {
+  margin: 50px;
+  background: #e3e3e3 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+.card {
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 35px !important;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 16%);
+}
+
+.card-body {
+  padding: 4rem;
+}
+
+.title {
+  margin-bottom: 79px;
+  font-family: "Lemon Milk";
+  color: #707070;
+}
+
+.resettitle {
+  margin-bottom: 20px;
+  font-family: "Lemon Milk";
+  color: #707070;
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border-bottom: 1px solid #00000020;
+  padding: 10px 0 10px 40px;
+}
+
+.form-role input,
+.form-role select,
+.form-role textarea {
+  font-size: 11pt;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #00000020;
+}
+
+.form-role label {
+  opacity: 0.7;
+}
+
+.form-input span,
+.form-pass span {
+  position: absolute;
+  color: #469ee7;
+  padding: 8px 0 0 2px;
+}
+.form-pass {
+  position: relative;
+}
+.form-pass input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #00000020;
+  padding: 10px 0 10px 30px;
+  outline: none;
+}
+.form-pass .repass input {
+  padding-left: 0;
+}
+
+.form-pass span {
+  position: absolute;
+  color: #469ee7;
+}
+.form-input ::placeholder,
+.form-pass ::placeholder {
+  opacity: 50%;
+}
+
+.form-pass input:focus,
+.form-pass input:valid,
+.form-input input:focus,
+.form-input input:valid {
+  border-bottom: 1px solid #0069d9;
+  transition: all 0.5s;
+}
+
+.form-role input:focus,
+.form-role input:valid,
+.form-role select:focus,
+.form-role select:valid,
+.form-role textarea:focus,
+.form-role textarea:valid {
+  border-bottom: 1px solid #0069d9;
+  transition: all 0.5s;
+  box-shadow: none;
+}
+.form-role select:focus,
+.form-role select:valid {
+  border-bottom: 1px solid #0069d9;
+  transition: all 0.5s;
+  box-shadow: none;
+}
+
+.form-box button[type="submit"],
+.form-box button[type="button"] {
+  width: 100%;
+  height: 55px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 28px;
+  color: #fff;
+  font-size: 90%;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+  padding: 12px;
+}
+
+.form-box button[type="button"] {
+  background-color: #d54c4c;
+}
+
+.form-box button[type="submit"] {
+  background-color: #469ee7;
+}
+
+.form-box button[type="button"]:hover {
+  background-color: #8d2828;
+}
+
+.form-box button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.forget-link,
+.register-link {
+  color: #469ee7;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+}
+
+@media screen and (max-width: 576px) {
+  .card-body{
+    padding: 3rem 0.5rem;
+  }
+}

@@ -1,0 +1,77 @@
+main .header {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+main .header .profile {
+  padding: 10px 0;
+}
+main .header a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+main .header a:hover {
+  color: #467ee7;
+}
+.item-list {
+  padding-bottom: 15px;
+}
+.info {
+  margin-bottom: 25px;
+}
+.info h4 {
+  font-weight: bold;
+}
+
+.password.item-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.password.item-list a:hover {
+  color: #467ee7;
+}
+
+.submit button[type="submit"],
+.pengaturan button[type="submit"] {
+  background-color: #469ee7;
+  outline: none;
+  color: white;
+}
+
+.submit button[type="reset"] {
+  background-color: #ffa633;
+  color: white;
+}
+
+.button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.submit,
+.pengaturan {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.pengaturan button[type="button"] {
+  color: white;
+}
+
+.item-value input {
+  cursor: auto;
+}
+
+.item-value input:focus,
+.item-value input:valid,
+.item-value textarea:focus,
+.item-value textarea:valid {
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .row.value {
+    margin-bottom: 15px;
+  }
+}
